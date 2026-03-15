@@ -1,0 +1,30 @@
+{
+  "cryomancer": {
+    "base": {
+      "name": "Cryomancer",
+      "health": 110,
+      "speed": 5,
+      "attack": 30,
+      "defense": 10,
+      "mana": 220
+    },
+    "abilities": {
+      "frostzone": {
+        "mana_cost": 15,
+        "radios": 3,
+        "damage": 40,
+        "percent_slow": 30
+      }
+    },
+    "randomness": {
+      "enabled": true,
+      "variance_percentage": 0.05,
+      "min_multiplier": 0.9,
+      "max_multiplier": 1.1,
+      "attributes_to_randomize": ["health", "attack", "defense"]
+    },
+    "visuals": {
+        "path": "assets/charecters/cryomancer.png"
+    }
+  }
+}

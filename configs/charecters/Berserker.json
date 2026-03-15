@@ -1,0 +1,29 @@
+{
+  "berserker": {
+    "base": {
+      "name": "Berserker",
+      "health": 160,
+      "speed": 10,
+      "attack": 65,
+      "defense": 7,
+      "mana": 80
+    },
+    "abilities": {
+      "bloodlust": {
+        "mana_cost": 15,
+        "damage": 40,
+        "steal_health": 0.3
+      }
+    },
+    "randomness": {
+      "enabled": true,
+      "variance_percentage": 0.05,
+      "min_multiplier": 0.9,
+      "max_multiplier": 1.1,
+      "attributes_to_randomize": ["health", "attack", "defense"]
+    },
+    "visuals": {
+        "path": "assets/charecters/berserker.png"
+    }
+  }
+}

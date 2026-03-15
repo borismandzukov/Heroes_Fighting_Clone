@@ -1,0 +1,28 @@
+{
+  "cleric": {
+    "base": {
+      "name": "Cleric",
+      "health": 130,
+      "speed": 6,
+      "attack": 20,
+      "defense": 12,
+      "mana": 180
+    },
+    "abilities": {
+      "healing": {
+        "heal": 50,
+        "mana_cost": 15
+      }
+    },
+    "randomness": {
+      "enabled": true,
+      "variance_percentage": 0.05,
+      "min_multiplier": 0.9,
+      "max_multiplier": 1.1,
+      "attributes_to_randomize": ["health", "attack", "defense"]
+    },
+    "visuals": {
+        "path": "assets/charecters/cleric.png"
+    }
+  }
+}

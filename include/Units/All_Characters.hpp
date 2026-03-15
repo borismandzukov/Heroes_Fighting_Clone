@@ -1,0 +1,7 @@
+#include "./Charecters/Barbarian.hpp"
+#include "./Charecters/Berserker.hpp"
+#include "./Charecters/Cleric.hpp"
+#include "./Charecters/Cryomancer.hpp"
+#include "./Charecters/Wizard.hpp"
+#include "./Character.hpp"
+#include "SFML/Main.hpp"

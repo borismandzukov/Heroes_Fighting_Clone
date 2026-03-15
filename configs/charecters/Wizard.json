@@ -1,0 +1,30 @@
+{
+  "wizard": {
+    "base": {
+      "name": "Wizard",
+      "health": 100,
+      "speed": 6,
+      "attack": 40,
+      "defense": 9,
+      "mana": 200
+    },
+    "abilities": {
+      "fireball": {
+        "mana_cost": 15,
+        "radios": 3,
+        "damage": 40,
+        "chanse_to_miss": 0.3
+      }
+    },
+    "randomness": {
+      "enabled": true,
+      "variance_percentage": 0.05,
+      "min_multiplier": 0.9,
+      "max_multiplier": 1.1,
+      "attributes_to_randomize": ["health", "attack", "defense"]
+    },
+    "visuals": {
+        "path": "assets/charecters/wizard.png"
+    }
+  }
+}
